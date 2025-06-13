@@ -2,12 +2,12 @@ import React from 'react';
 import Image from 'next/image';
 
 const BENEFITS_LIST = [
-    "Reduce inflamación abdominal",
-    "Activa tu quema de grasa",
-    "Mejora tu enfoque mental",
-    "Vuelve a entrar en tu ropa favorita",
-    "Incluye audios de motivación y hábitos",
-    "Lo haces desde casa, a tu ritmo"
+    "Limpieza natural del sistema digestivo",
+    "Reducción de hinchazón abdominal",
+    "Más claridad mental y energía estable",
+    "Mejor sueño y menos antojos",
+    "Ideal como reinicio después de excesos",
+    "Sin dietas estrictas ni ayunos extremos"
 ] as const;
 
 const BenefitItem: React.FC<{ text: string }> = ({ text }) => (
@@ -25,14 +25,14 @@ const BenefitItem: React.FC<{ text: string }> = ({ text }) => (
     </div>
 );
 
-const Benefits: React.FC = () => (
+const BenefitsDetox: React.FC = () => (
     <>
         <div className="bg-white py-8 px-6 max-w-sm mx-auto md:max-w-md lg:max-w-lg">
             {/* Header */}
-            <div className="text-center mb-8 mt-48">
+            <div className="text-center mb-8 mt-64 md:mt-56 lg:mt-56">
                 <div className="flex items-center justify-center gap-2 mb-2">
-                    <h2 className="text-xl md:text-2xl font-bold text-black tracking-wide">
-                        🌿 BENEFICIOS <br />SIMPLES Y VISUALES
+                    <h2 className="text-xl font-dmSerifDisplay md:text-2xl font-bold text-black tracking-wide">
+                        🌿 BENEFICIOS <br />SIMPLES
                     </h2>
                 </div>
 
@@ -47,22 +47,15 @@ const Benefits: React.FC = () => (
         </div>
 
         <div className="mt-12 bg-black w-full p-6 text-center">
-            <Image
-                src="/inicio/isa1.png"
-                alt="Isa Belcan"
-                width={100}
-                height={100}
-                className="mx-auto mb-6 rounded-full object-cover"
-            />
             {/* Quote */}
             <h3 className="text-white text-xl font-inter md:text-lg font-medium mb-6 leading-relaxed px-2">
-                “No es solo el cuerpo… es cómo me siento ahora cada mañana.”
+                “Después del Detox, me sentí liviana como hace años no me sentía!”
             </h3>
 
             {/* Before/After Image */}
             <div className="relative">
                 <img
-                    src="/keto/photisapeso.png"
+                    src="/detox/desintoxicacion.png"
                     alt="Proceso de desintoxicación - Antes y después"
                     className="w-full max-w-xs mx-auto rounded-xl object-cover"
                 />
@@ -71,4 +64,4 @@ const Benefits: React.FC = () => (
     </>
 );
 
-export default Benefits;
+export default BenefitsDetox;
