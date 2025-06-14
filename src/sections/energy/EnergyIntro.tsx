@@ -8,7 +8,7 @@ export default function EnergyIntro() {
             <div className="absolute top-6 right-1 z-10">
                 <div className="w-32 h-32 rounded flex items-center justify-center">
                     <Image
-                        src="/inicio/logo.png"
+                        src="/inicio/isaLogo.png"
                         alt="Logo"
                         width={32}
                         height={24}
