@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import React from 'react';
 
-export default function AfiliadosIntro() {
+export default function EbookIntro() {
     return (
         <div className="bg-black min-h-screen flex items-center justify-center p-4">
             <div className="absolute top-4 right-1 z-10">
@@ -16,12 +16,13 @@ export default function AfiliadosIntro() {
             </div>
             {/* Contenedor redondeado con márgenes - 90% del ancho */}
             <div className="relative w-[90%] mx-auto my-14">
-                <div className="relative h-[650px]  rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative h-[650px] md:h-[900px] lg:h-[1400px]  rounded-2xl overflow-hidden shadow-2xl">
                     {/* Imagen de fondo */}
                     <Image
-                        src="/afiliados/mountain.jpg"
+                        src="/ebook/background.jpg"
                         alt="Person running and exercising"
                         fill
+                        sizes="(max-width: 768px) 90vw, (max-width: 1200px) 80vw, 70vw"
                         className="object-cover"
                         priority
                     />
@@ -32,26 +33,25 @@ export default function AfiliadosIntro() {
                         {/* Título principal */}
                         <div className="flex-1 flex flex-col justify-center text-center space-y-8">
                             <h1 className="text-white font-dmSerifDisplay text-4xl font-bold leading-[1.2]">
-                                <span className="block">¿Sientes que</span>
-                                <span className="block">tienes <span className="bg-[#0F7457]">potencial</span>,</span>
-                                <span className="block">pero te falta</span>
-                                <span className="bg-[#0F7457]">dirección</span>?
+                                <span >¿Sientes que tu <span className="bg-[#0F7457]">historia</span>,</span>
+                                <span >merece ser contada… pero no sabes por dónde empezar?</span>
+
                             </h1>
                             <p className="text-white text-3xl  font-inter leading-[1.2] px-2">
-                                Sin experiencia. Solo decisión y un sistema probado.
+                                Descubre cómo construir una marca personal auténtica, rentable y con propósito.
                             </p>
                         </div>
 
                         {/* Botón */}
-                        <div className="pb-4">
-                            <Link
-                                href="/registro"
-                                className=" w-[200px] flex justify-center items-center mx-auto bg-white text-black font-bold text-lg py-4 px-6 rounded-xl text-center
+
+                        <Link
+                            href="/registro"
+                            className="pb-4 w-[200px] flex justify-center items-center mx-auto bg-white text-black font-bold text-lg py-4 px-6 rounded-xl text-center
                                          hover:bg-gray-100"
-                            >
-                                UNIRME
-                            </Link>
-                        </div>
+                        >
+                            ACCEDER
+                        </Link>
+
                     </div>
                 </div>
             </div>
