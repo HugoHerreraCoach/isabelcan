@@ -40,7 +40,7 @@ export default function CardsAfiliados() {
                     {cardsData.map((card) => (
                         <div
                             key={card.id}
-                            className="bg-[#0F7457] rounded-2xl p-6 sm:p-8 text-center space-y-4 hover:bg-green-900 transition-colors duration-200"
+                            className="bg-[#0F7457]/50 rounded-2xl p-6 sm:p-8 text-center space-y-4 hover:bg-green-900 transition-colors duration-200"
                         >
                             <div className="flex justify-center mb-4">
                                 <div className="w-16 h-16 sm:w-20 sm:h-20 relative">
