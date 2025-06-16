@@ -9,7 +9,7 @@ const Bonus: React.FC = () => (
         Y muchos bonos más...
       </h2>
 
-      {/* Decorative Line. */}
+      {/* Decorative Line */}
       <div className="flex justify-center items-center mx-auto mb-16 w-[50%] h-[1px] bg-[#0F7457]"></div>
 
 
