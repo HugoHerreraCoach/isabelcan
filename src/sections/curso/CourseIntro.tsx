@@ -16,7 +16,7 @@ export default function CourseIntro() {
                     />
                 </div>
                 {/* Contenedor redondeado con márgenes - 90% del ancho */}
-                <div className="relative w-[90%] mx-auto my-14">
+                <div className="relative w-[90%] mx-auto my-20">
                     <div className="relative h-[450px] md:h-[500px] lg:h-[800px]  rounded-2xl overflow-hidden shadow-2xl">
                         {/* Imagen de fondo */}
                         <Image
