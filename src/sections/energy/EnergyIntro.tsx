@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link";
 import React from 'react';
 
 export default function EnergyIntro() {
@@ -38,9 +39,9 @@ export default function EnergyIntro() {
                         </div>
 
                         <div className="flex flex-col items-center gap-6 mb-12">
-                            <button className="bg-[#0F7457] hover:bg-emerald-700 text-white font-bold py-4 px-12 rounded-xl text-[14px] tracking-wider transition-colors duration-200 shadow-lg w-full max-w-[280px]">
+                            <Link href="#" className="bg-[#0F7457] hover:bg-emerald-700 text-white font-bold py-4 px-12 rounded-xl text-[14px] tracking-wider transition-colors duration-200 shadow-lg w-full max-w-[280px]">
                                 UNIRME AL RETO
-                            </button>
+                            </Link>
                             <div className="w-32 h-[1px] bg-[#0F7457]"></div>
                         </div>
 
