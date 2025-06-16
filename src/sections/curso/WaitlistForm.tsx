@@ -10,7 +10,7 @@ interface FormData {
 interface BrevoContact {
   email: string;
   attributes: {
-    FIRSTNAME: string;
+    NOMBRE: string;
     SMS: string;
   };
   listIds: number[];
@@ -119,10 +119,10 @@ const WaitlistForm: React.FC = () => {
       const brevoContact: BrevoContact = {
         email: formData.email,
         attributes: {
-          FIRSTNAME: formData.nombre,
-          SMS: `+51${formData.whatsapp}`, // Agregar código de país de Perú
+          NOMBRE: formData.nombre,
+          SMS: `+51${formData.whatsapp}`, 
         },
-        listIds: [3], // Tu Lista 3
+        listIds: [3], // Lista 3
       };
 
       console.log('Enviando contacto con número formateado:', brevoContact.attributes.SMS);

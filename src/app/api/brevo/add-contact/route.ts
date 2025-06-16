@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 interface BrevoContact {
   email: string;
   attributes: {
-    FIRSTNAME: string;
+    NOMBRE: string;
     SMS: string;
   };
   listIds: number[];
@@ -18,8 +18,8 @@ export async function POST(request: NextRequest) {
     console.log('Datos recibidos:', body);
     
     // Validar que tenemos los datos necesarios
-    if (!body.email || !body.attributes?.FIRSTNAME) {
-      console.error('Datos faltantes:', { email: body.email, nombre: body.attributes?.FIRSTNAME });
+    if (!body.email || !body.attributes?.NOMBRE) {
+      console.error('Datos faltantes:', { email: body.email, nombre: body.attributes?.NOMBRE });
       return NextResponse.json(
         { message: 'Email y nombre son requeridos' },
         { status: 400 }
@@ -70,7 +70,10 @@ export async function POST(request: NextRequest) {
             'api-key': apiKey,
           },
           body: JSON.stringify({
-            attributes: body.attributes,
+            attributes: {
+              NOMBRE: body.attributes.NOMBRE,
+              SMS: body.attributes.SMS
+            },
             listIds: body.listIds,
           }),
         });
