@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const BENEFITS_LIST = [
     "Limpieza natural del sistema digestivo",

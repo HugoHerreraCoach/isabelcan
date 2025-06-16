@@ -71,7 +71,7 @@ export default function BenefitsEbook() {
             </div>
             <div className="relative">
                 {/* Contenedor con fondo dividido verticalmente */}
-                <div className="relative h-80 overflow-hidden ">
+                <div className="relative h-52 overflow-hidden ">
                     {/* Fondo dividido verticalmente */}
                     <div className="absolute inset-0 flex flex-col">
                         {/* Mitad superior blanca */}
