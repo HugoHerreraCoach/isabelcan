@@ -21,8 +21,8 @@ const CardVita: React.FC = () => {
         {/* Columna 1: Header + Imagen */}
         <div className="flex flex-col">
           {/* Header */}
-          <div className="flex items-center justify-start mb-4 sm:mb-6">
-            <h1 className="text-2xl font-dmSerifDisplay font-bold text-gray-800">
+          <div className="flex items-center justify-center mb-4 sm:mb-6">
+            <h1 className="text-2xl text-center font-dmSerifDisplay font-bold text-gray-800">
              🌿 ¿QUÉ ES VITA XTR?
             </h1>
           </div>

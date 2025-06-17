@@ -2,6 +2,21 @@ import Image from "next/image"
 import Link from "next/link"
 import React from 'react';
 
+const CalendarButton = () => {
+    const whatsappUrl = `https://calendar.app.google/ezzV6nGvsQwrKz8cA`
+
+    return (
+        <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" w-[200px] flex justify-center items-center mx-auto bg-white text-black font-bold text-lg py-4 px-6 rounded-xl text-center
+                                         hover:bg-gray-100"
+        >
+            UNIRME AL RETO
+        </a>
+    )
+}
 export default function AfiliadosIntro() {
     return (
         <div className="bg-black min-h-screen flex items-center justify-center p-4">
@@ -44,13 +59,7 @@ export default function AfiliadosIntro() {
 
                         {/* Botón */}
                         <div className="pb-4">
-                            <Link
-                                href="/registro"
-                                className=" w-[200px] flex justify-center items-center mx-auto bg-white text-black font-bold text-lg py-4 px-6 rounded-xl text-center
-                                         hover:bg-gray-100"
-                            >
-                                UNIRME
-                            </Link>
+                            <CalendarButton/>
                         </div>
                     </div>
                 </div>

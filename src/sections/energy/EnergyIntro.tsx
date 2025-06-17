@@ -1,7 +1,20 @@
 import Image from "next/image"
 import Link from "next/link";
 import React from 'react';
+const WhatsAppButton = () => {
+    const whatsappUrl = `https://wa.link/sm22xz`
 
+    return (
+        <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#0F7457] hover:bg-emerald-700 text-white font-bold py-4 px-12 rounded-xl text-[14px] tracking-wider transition-colors duration-200 shadow-lg w-full max-w-[280px] text-center inline-block"
+        >
+            UNIRME AL RETO
+        </a>
+    )
+}
 export default function EnergyIntro() {
     return (
         <header className="bg-linear-to-b from-[#1D1D1D] to-[#020202] text-white flex flex-col items-center">
@@ -39,9 +52,7 @@ export default function EnergyIntro() {
                         </div>
 
                         <div className="flex flex-col items-center gap-6 mb-12">
-                            <Link href="#" className="bg-[#0F7457] hover:bg-emerald-700 text-white font-bold py-4 px-12 rounded-xl text-[14px] tracking-wider transition-colors duration-200 shadow-lg w-full max-w-[280px]">
-                                UNIRME AL RETO
-                            </Link>
+                            <WhatsAppButton />
                             <div className="w-32 h-[1px] bg-[#0F7457]"></div>
                         </div>
 

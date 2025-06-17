@@ -1,8 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
-
 const WhatsAppButton = () => {
-  const whatsappUrl = `https://wa.link/6xznhy`
+  const whatsappUrl = `https://wa.link/sm22xz`
 
   return (
     <a
@@ -15,29 +13,32 @@ const WhatsAppButton = () => {
     </a>
   )
 }
-
-const Bonus: React.FC = () => (
+const BonusEnergy: React.FC = () => (
   <div className="bg-black py-8 px-6 -mt-24">
     <div className="max-w-sm mx-auto md:max-w-md lg:max-w-lg text-center">
       {/* Main Headline */}
-      <h2 className="text-white font-inter text-2xl md:text-3xl font-bold leading-tight mb-4 mt-8">
+      <h2 className="text-white font-inter text-2xl md:text-3xl font-bold leading-tight mb-4 mt-12">
         Y muchos bonos más...
       </h2>
 
       {/* Decorative Line */}
-      <div className="flex justify-center items-center mx-auto mb-16 w-[50%] h-[1px] bg-[#0F7457]"></div>
-
+      <div className="flex justify-center mb-16">
+        <div className="w-32 h-0.5 bg-[#0F7457]"></div>
+      </div>
 
       {/* CTA Text */}
-      <h3 className="text-white font-inter text-xl md:text-2xl font-bold leading-tight mb-2">
-        ¿Quieres empezar? <br /> Haz clic y te envío toda la info al WhatsApp{' '}
-        <span className="inline-block">👇</span>
-      </h3>
+      <div className="mb-4">
+        <h3 className="text-white font-inter text-xl md:text-2xl font-bold leading-tight mb-8">
+          ¿Lista para liberar toxinas y volver a sentirte tú?
+        </h3>
+      </div>
 
       {/* CTA Button */}
-      <WhatsAppButton />
+      <div className="flex justify-center">
+        <WhatsAppButton />
+      </div>
     </div>
   </div>
 );
 
-export default Bonus;
+export default BonusEnergy;
