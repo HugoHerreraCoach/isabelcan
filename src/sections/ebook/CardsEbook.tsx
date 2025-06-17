@@ -27,6 +27,21 @@ const cardsData = [
 
 ];
 
+const EbookButton = () => {
+    const whatsappUrl = `https://go.hotmart.com/F85500180K`
+
+    return (
+        <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center items-center text-center w-[90%] sm:w-[40%] lg:w-[40%] bg-white hover:bg-emerald-700  text-black font-inter font-bold py-4 px-8 rounded-2xl text-2xl mx-auto"
+        >
+            QUIERO MI E-BOOK AHORA
+        </a>
+    )
+}
+
 export default function CardsEbook() {
     return (
         <div className="bg-black flex items-center justify-center p-8">
@@ -76,11 +91,8 @@ export default function CardsEbook() {
                     <h3 className='text-white font-inter text-2xl p-8  justify-center items-center text-center'>Accede hoy por solo <span className='text-4xl  flex justify-center items-center text-center font-bold'> $12 </span></h3>
 
                     {/* CTA Button */}
-
-                    <Link href="#" className=" flex justify-center items-center text-center bg-white hover:bg-emerald-700  text-black font-inter font-bold py-4 px-8 rounded-2xl text-2xl mx-auto">
-                        QUIERO MI E-BOOK AHORA
-                    </Link>
-
+                    <EbookButton/>
+                    
                 </div>
             </div>
         </div>

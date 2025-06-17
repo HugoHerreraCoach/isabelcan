@@ -1,7 +1,21 @@
 import Image from "next/image"
-import Link from "next/link"
 import React from 'react';
 
+const EbookButton = () => {
+    const whatsappUrl = `https://go.hotmart.com/F85500180K`
+
+    return (
+        <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pb-4 w-[200px] flex justify-center items-center mx-auto bg-white text-black font-bold text-lg py-4 px-6 rounded-xl text-center
+                                         hover:bg-gray-100"
+        >
+            ACCEDER
+        </a>
+    )
+}
 export default function EbookIntro() {
     return (
         <div className="bg-black min-h-screen flex items-center justify-center p-4">
@@ -23,7 +37,7 @@ export default function EbookIntro() {
                         alt="Person running and exercising"
                         fill
                         sizes="(max-width: 768px) 90vw, (max-width: 1200px) 80vw, 70vw"
-                        className="object-cover"
+                        className="object-cover opacity-60"
                         priority
                     />
 
@@ -44,13 +58,7 @@ export default function EbookIntro() {
 
                         {/* Botón */}
 
-                        <Link
-                            href="/registro"
-                            className="pb-4 w-[200px] flex justify-center items-center mx-auto bg-white text-black font-bold text-lg py-4 px-6 rounded-xl text-center
-                                         hover:bg-gray-100"
-                        >
-                            ACCEDER
-                        </Link>
+                        <EbookButton/>
 
                     </div>
                 </div>

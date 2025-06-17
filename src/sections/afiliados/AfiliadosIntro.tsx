@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import React from 'react';
 
 const CalendarButton = () => {
@@ -13,7 +12,7 @@ const CalendarButton = () => {
             className=" w-[200px] flex justify-center items-center mx-auto bg-white text-black font-bold text-lg py-4 px-6 rounded-xl text-center
                                          hover:bg-gray-100"
         >
-            UNIRME AL RETO
+            UNIRME
         </a>
     )
 }
