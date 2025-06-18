@@ -31,7 +31,7 @@ export default function CardsCourse() {
         <div className="bg-black flex items-center justify-center p-8">
             <div className="w-full mx-auto">
 
-                {/* Título principal */}
+                {/* Título principal. */}
                 <h1 className="text-white text-3xl font-bold font-serif text-center p-8">
                     ¿PARA <span className='text-[#70AB9B]'>QUIÉN</span> ES ?
                 </h1>
