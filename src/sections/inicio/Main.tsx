@@ -58,7 +58,7 @@ export default function Main(){
                     </Link>
                 )}
             </div>
-            <div className="bg-white w-[80%] flex flex-col items-center justify-center rounded-t-2xl mt-10">
+            <div className="bg-white w-[95%] flex flex-col items-center justify-center rounded-t-2xl mt-10">
                 <p className="text-[#0F7457] font-serif text-3xl md:text-4xl lg:text-5xl text-center pt-4 leading-[1]">¡Transforma tu cuerpo!</p>
                 <div className="h-[2px] w-[50%] bg-[#0F7457] mt-2"></div>
             </div>
