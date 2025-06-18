@@ -20,7 +20,7 @@ export default function GoalCourse() {
                     <div className="w-[40%] h-[2px] bg-[#0F7457] mx-auto"></div>
 
                     {/* Título principal */}
-                    <h1 className="text-white text-4xl font-bold font-dmSerifDisplay text-center">
+                    <h1 className="text-white text-4xl font-bold font-serif text-center">
                         ¿QUE VAS A <span className='text-[#70AB9B]'>LOGRAR</span>?
                     </h1>
 

@@ -31,7 +31,7 @@ const Benefits: React.FC = () => (
             {/* Header */}
             <div className="text-center mb-8 mt-48">
                 <div className="flex items-center justify-center gap-2 mb-2">
-                    <h2 className="text-3xl  font-bold text-black font-dmSerif mt-8">
+                    <h2 className="text-3xl  font-bold text-black font-serif mt-8">
                         🌿 BENEFICIOS <br />SIMPLES Y VISUALES
                     </h2>
                 </div>

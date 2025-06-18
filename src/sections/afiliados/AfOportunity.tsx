@@ -9,7 +9,7 @@ export default function AfOportunity() {
                 <div className="w-[40%] h-[2px] bg-[#0F7457] mx-auto mb-6"></div>
                 
                 {/* Título principal */}
-                <h1 className="text-[#70AB9B] text-3xl font-bold font-dmSerifDisplay">
+                <h1 className="text-[#70AB9B] text-3xl font-bold font-serif">
                     ¿QUÉ ES ESTA OPORTUNIDAD?
                 </h1>
                 

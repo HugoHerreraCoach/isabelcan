@@ -45,7 +45,7 @@ export default function AfiliadosIntro() {
 
                         {/* Título principal */}
                         <div className="flex-1 flex flex-col justify-center text-center space-y-8">
-                            <h1 className="text-white font-dmSerifDisplay text-4xl font-bold leading-[1.2]">
+                            <h1 className="text-white font-serif text-4xl font-bold leading-[1.2]">
                                 <span className="block">¿Sientes que</span>
                                 <span className="block">tienes <span className="bg-[#0F7457]">potencial</span>,</span>
                                 <span className="block">pero te falta</span>

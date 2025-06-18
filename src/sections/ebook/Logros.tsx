@@ -19,7 +19,7 @@ export default function Logros() {
                 <div className="w-[30%] h-[2px] bg-[#0F7457] mx-auto"></div>
                 
                 {/* Título principal */}
-                <h1 className="text-white text-3xl font-bold font-dmSerifDisplay text-center">
+                <h1 className="text-white text-3xl font-bold font-serif text-center">
                     ¿QUE VAS A <span className='text-[#70AB9B]'>LOGRAR</span>?
                 </h1>
                 

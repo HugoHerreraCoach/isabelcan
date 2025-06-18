@@ -33,7 +33,7 @@ export default function CourseIntro() {
 
                             {/* Título principal */}
                             <div className="flex-1 flex flex-col justify-center text-center space-y-8">
-                                <h1 className="text-white font-dmSerifDisplay text-3xl font-bold leading-[1.2]">
+                                <h1 className="text-white font-serif text-3xl font-bold leading-[1.2]">
                                     <span >Haz <span className="bg-[#0F7457]">ofertas</span> tan  <span className="bg-[#0F7457]"> buenas</span> ... que la gente se sienta <span className="bg-[#0F7457]">estúpid#</span> si dice que <span className="bg-[#0F7457]">no .</span>  </span>
 
                                 </h1>

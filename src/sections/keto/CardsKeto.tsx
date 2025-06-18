@@ -122,7 +122,7 @@ const CardsKeto: React.FC = () => (
               className="w-full h-full object-contain"
             />
           </div>
-          <h2 className="text-3xl font-dmSerifDisplay font-bold text-black">
+          <h2 className="text-3xl font-serif font-bold text-black">
             ¿QUÉ INCLUYE?
           </h2>
         </div>

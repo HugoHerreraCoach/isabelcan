@@ -22,7 +22,7 @@ export default function ParaQuienEs() {
                 <div className="w-[20%] h-[2px] bg-[#0F7457] mx-auto"></div>
                 
                 {/* Título principal */}
-                <h1 className="text-[#70AB9B] text-3xl font-bold font-dmSerifDisplay text-center">
+                <h1 className="text-[#70AB9B] text-3xl font-bold font-serif text-center">
                     ¿PARA QUIÉN ES?
                 </h1>
                 

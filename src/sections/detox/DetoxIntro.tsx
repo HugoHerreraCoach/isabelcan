@@ -21,12 +21,12 @@ export default function DetoxIntro() {
     return (
         <header className="bg-linear-to-b from-[#1D1D1D] to-[#020202] text-white flex flex-col items-center">
             {/* Logo */}
-            <div className="absolute top-6 right-1 z-10">
+            <div className="absolute top-4 right-1 z-10">
                 <Image
                     src="/inicio/isaLogo.png"
                     alt="Logo"
-                    width={8}
-                    height={8}
+                    width={16}
+                    height={16}
                     className="w-16 h-16 object-contain"
                 />
             </div>
@@ -42,7 +42,7 @@ export default function DetoxIntro() {
                 {/* Overlay Content */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center z-10 mt-64">
                     <div className="bg-white w-[90%] flex flex-col items-center justify-center rounded-t-2xl  px-6 pt-2 pb-2 -mb-60 mt-10 ">
-                        <h1 className="text-[#0F7457] text-center font-dmSerifDisplay text-4xl leading-[1.2] p-4"> 🍎 Programa Detox 5D</h1>
+                        <h1 className="text-[#0F7457] text-center font-serif text-4xl leading-[1.2] p-4"> 🍎 Programa Detox 5D</h1>
 
                         {/* Main Description */}
                         <div className="text-center mb-8 mt-6">

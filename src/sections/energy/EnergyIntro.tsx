@@ -40,7 +40,7 @@ export default function EnergyIntro() {
                 {/* Overlay Content */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center z-10 mt-56">
                     <div className="bg-white w-[90%] flex flex-col items-center justify-center rounded-t-2xl  px-6 pt-2 pb-2 -mb-60 mt-10 ">
-                        <h1 className="text-[#0F7457] text-center font-dmSerifDisplay text-3xl leading-[1.2] mt-8"> ¿Sientes que el día te queda corto, pero tu energía más aún?</h1>
+                        <h1 className="text-[#0F7457] text-center font-serif text-3xl leading-[1.2] mt-8"> ¿Sientes que el día te queda corto, pero tu energía más aún?</h1>
 
                         {/* Main Description */}
                         <div className="text-center mb-8 mt-6">

@@ -18,7 +18,7 @@ export default function BenefitsEbook() {
                     {/* Contenedor blanco redondeado */}
                     <div className="bg-white p-6 rounded-t-3xl text-center space-y-6">
                         {/* Título principal */}
-                        <h1 className="text-black text-3xl font-dmSerifDisplay font-bold leading-[1.2]">
+                        <h1 className="text-black text-3xl font-serif font-bold leading-[1.2]">
                             ¿QUÉ HACE DIFERENTE A ESTE <span className="text-[#0F7457]">E-BOOK</span>?
                         </h1>
 

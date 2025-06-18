@@ -30,7 +30,7 @@ const BenefitsDetox: React.FC = () => (
             {/* Header */}
             <div className="text-center mb-8 mt-96 sm:mt-80 lg:mt-68">
                 <div className="flex items-center justify-center gap-2 mb-2">
-                    <h2 className="text-3xl font-dmSerifDisplay font-bold text-black mt-16">
+                    <h2 className="text-3xl font-serif font-bold text-black mt-16">
                         🌿 BENEFICIOS <br />SIMPLES
                     </h2>
                 </div>

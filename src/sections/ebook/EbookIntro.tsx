@@ -46,7 +46,7 @@ export default function EbookIntro() {
 
                         {/* Título principal */}
                         <div className="flex-1 flex flex-col justify-center text-center space-y-8">
-                            <h1 className="text-white font-dmSerifDisplay text-3xl font-bold leading-[1.2]">
+                            <h1 className="text-white font-serif text-3xl font-bold leading-[1.2]">
                                 <span >¿Sientes que tu <span className="bg-[#0F7457]">historia</span>,</span>
                                 <span >merece ser contada… pero no sabes por dónde empezar?</span>
 

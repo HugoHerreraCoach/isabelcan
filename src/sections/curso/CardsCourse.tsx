@@ -32,7 +32,7 @@ export default function CardsCourse() {
             <div className="w-full mx-auto">
 
                 {/* Título principal */}
-                <h1 className="text-white text-3xl font-bold font-dmSerifDisplay text-center p-8">
+                <h1 className="text-white text-3xl font-bold font-serif text-center p-8">
                     ¿PARA <span className='text-[#70AB9B]'>QUIÉN</span> ES ?
                 </h1>
                 {/* Grid responsive - 1 columna en móvil, 2 en tablet, 4 en desktop */}

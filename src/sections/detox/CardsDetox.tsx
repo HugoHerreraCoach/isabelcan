@@ -103,7 +103,7 @@ const CardsDetox: React.FC = () => (
                 <div className="absolute -top-4 w-32 h-[1px] bg-[#0F7457]"></div>
 
                 <div className="flex items-center justify-center gap-2 mb-4 mt-2">
-                    <h2 className="text-3xl font-dmSerifDisplay md:text-2xl font-bold text-black">
+                    <h2 className="text-3xl font-serif md:text-2xl font-bold text-black">
                         🍋¿QUÉ INCLUYE?
                     </h2>
                 </div>
