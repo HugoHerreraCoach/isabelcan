@@ -5,14 +5,14 @@ const WhatsAppButton = () => {
     const whatsappUrl = `https://wa.link/sm22xz`
 
     return (
-        <a
+        <Link
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#0F7457] hover:bg-emerald-700 text-white font-bold py-4 px-12 rounded-xl text-2xl text-center"
         >
             UNIRME AL RETO
-        </a>
+        </Link>
     )
 }
 export default function EnergyIntro() {

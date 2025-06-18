@@ -31,14 +31,14 @@ const EbookButton = () => {
     const whatsappUrl = `https://go.hotmart.com/F85500180K`
 
     return (
-        <a
+        <Link
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="flex justify-center items-center text-center w-[90%] sm:w-[40%] lg:w-[40%] bg-white hover:bg-emerald-700  text-black font-inter font-bold py-4 px-8 rounded-2xl text-2xl mx-auto"
         >
             QUIERO MI E-BOOK AHORA
-        </a>
+        </Link>
     )
 }
 
