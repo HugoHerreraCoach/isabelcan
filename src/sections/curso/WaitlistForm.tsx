@@ -16,7 +16,14 @@ interface BrevoContact {
   listIds: number[];
 }
 
-const WaitlistForm: React.FC = () => {
+// Agregamos una prop 'id' a la interfaz
+interface WaitlistFormProps {
+  id?: string;
+}
+
+// Recibimos la prop 'id'
+const WaitlistForm: React.FC<WaitlistFormProps> = ({ id }) => {
+
   const [formData, setFormData] = useState<FormData>({
     nombre: '',
     email: '',
@@ -149,7 +156,7 @@ const WaitlistForm: React.FC = () => {
   };
 
   return (
-    <div className="bg-black flex items-center justify-center p-4">
+    <div id={id} className="bg-black flex items-center justify-center p-4">
       <div className="bg-gray-100 rounded-3xl p-6 w-[90%] sm:w-[70%] lg:w-[60%] shadow-xl">
         <div className="space-y-6">
           {/* Campo Nombre */}

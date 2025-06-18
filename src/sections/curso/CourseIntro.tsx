@@ -1,8 +1,16 @@
+"use client"
 import Image from "next/image"
-import Link from "next/link"
 import React from 'react';
 
 export default function CourseIntro() {
+    // Función para manejar el scroll al formulario
+    const handleScrollToForm = () => {
+        const formElement = document.getElementById('waitlist-form-section');
+        if (formElement) {
+            formElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    };
+
     return (
         <>
             <div className="bg-black flex items-center justify-center p-4">
@@ -43,13 +51,12 @@ export default function CourseIntro() {
                             </div>
 
                             {/* Botón */}
-
-                            <Link
-                                href="/registro"
+                            <button
+                                onClick={handleScrollToForm} // Llama a la función de scroll
                                 className="pb-4 w-[200px] flex justify-center items-center mx-auto bg-white text-black font-bold text-2xl py-4 px-6 rounded-xl text-cente hover:bg-[#0F7457]"
                             >
                                 ÚNETE
-                            </Link>
+                            </button>
 
                         </div>
                     </div>
@@ -60,8 +67,8 @@ export default function CourseIntro() {
 
                 {/* Descripción principal */}
                 <div className="space-y-4 px-2">
-                     {/* Línea decorativa superior */}
-                <div className="w-[40%] h-[2px] bg-[#0F7457] mx-auto mb-6"></div>
+                    {/* Línea decorativa superior */}
+                    <div className="w-[40%] h-[2px] bg-[#0F7457] mx-auto mb-6"></div>
                     <p className="text-white text-2xl  leading-[1.2] font-inter">
                         📩 Únete a la lista prioritaria y sé la primera en enterarte del lanzamiento.
                     </p>

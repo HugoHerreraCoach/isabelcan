@@ -5,7 +5,7 @@ import CardsDetox from "@/sections/detox/CardsDetox";
 import DetoxIntro from "@/sections/detox/DetoxIntro";
 
 
-export default function Home() {
+export default function DetoxPage() {
   return (
     <>
       <DetoxIntro />

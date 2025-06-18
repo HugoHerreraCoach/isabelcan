@@ -5,7 +5,7 @@ import EbookIntro from "@/sections/ebook/EbookIntro";
 import InfoEbook from "@/sections/ebook/InfoEbook";
 import Logros from "@/sections/ebook/Logros";
 
-export default function Home() {
+export default function EbookPage() {
   return (
     <>
       <EbookIntro/>

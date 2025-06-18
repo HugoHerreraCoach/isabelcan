@@ -5,7 +5,7 @@ import EnergyIntro from "@/sections/energy/EnergyIntro";
 import Bonus from "@/sections/energy/BonusEnergy";
 import CardVita from "@/sections/energy/CardVita";
 
-export default function Home() {
+export default function EnergyPage() {
   return (
     <>
       <EnergyIntro />
