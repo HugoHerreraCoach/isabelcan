@@ -16,8 +16,8 @@ export default function CourseIntro() {
                     />
                 </div>
                 {/* Contenedor redondeado con márgenes - 90% del ancho */}
-                <div className="relative w-[90%] mx-auto my-20">
-                    <div className="relative h-[450px] md:h-[500px] lg:h-[800px]  rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative w-[95%] mx-auto my-20">
+                    <div className="relative h-[510px] md:h-[510px] lg:h-[800px]  rounded-2xl overflow-hidden shadow-2xl">
                         {/* Imagen de fondo */}
                         <Image
                             src="/course/edificio.png"
@@ -33,11 +33,11 @@ export default function CourseIntro() {
 
                             {/* Título principal */}
                             <div className="flex-1 flex flex-col justify-center text-center space-y-8">
-                                <h1 className="text-white font-dmSerifDisplay text-2xl font-bold leading-[1.2]">
+                                <h1 className="text-white font-dmSerifDisplay text-3xl font-bold leading-[1.2]">
                                     <span >Haz <span className="bg-[#0F7457]">ofertas</span> tan  <span className="bg-[#0F7457]"> buenas</span> ... que la gente se sienta <span className="bg-[#0F7457]">estúpid#</span> si dice que <span className="bg-[#0F7457]">no .</span>  </span>
 
                                 </h1>
-                                <p className="text-white text-xl  font-inter leading-[1.2] px-2">
+                                <p className="text-white text-2xl  font-inter leading-[1.2] px-2">
                                     Aprende a crear ofertas que venden sin esfuerzo ni descuentos.
                                 </p>
                             </div>

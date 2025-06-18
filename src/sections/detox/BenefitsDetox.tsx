@@ -10,7 +10,7 @@ const BENEFITS_LIST = [
 ] as const;
 
 const BenefitItem: React.FC<{ text: string }> = ({ text }) => (
-    <div className="flex items-start gap-3">
+    <div className="flex items-start gap-3 max-w-2xl mx-auto ">
         <div className="flex-shrink-0 w-6 h-6 mt-0.5">
             <img
                 src="/keto/checklist.png"
@@ -18,7 +18,7 @@ const BenefitItem: React.FC<{ text: string }> = ({ text }) => (
                 className="w-full h-full object-contain"
             />
         </div>
-        <p className="text-black text-xl md:text-base leading-relaxed font-inter">
+        <p className="text-black text-3xl leading-[1.2] font-inter">
             {text}
         </p>
     </div>
@@ -26,11 +26,11 @@ const BenefitItem: React.FC<{ text: string }> = ({ text }) => (
 
 const BenefitsDetox: React.FC = () => (
     <>
-        <div className="bg-white py-8 px-6 max-w-sm mx-auto md:max-w-md lg:max-w-lg">
+        <div className="bg-white py-8 px-6 mx-auto">
             {/* Header */}
-            <div className="text-center mb-8 mt-64 md:mt-56 lg:mt-56">
+            <div className="text-center mb-8 mt-96 sm:mt-80 lg:mt-68">
                 <div className="flex items-center justify-center gap-2 mb-2">
-                    <h2 className="text-xl font-dmSerifDisplay md:text-2xl font-bold text-black tracking-wide">
+                    <h2 className="text-3xl font-dmSerifDisplay font-bold text-black mt-16">
                         🌿 BENEFICIOS <br />SIMPLES
                     </h2>
                 </div>
@@ -38,7 +38,7 @@ const BenefitsDetox: React.FC = () => (
             </div>
 
             {/* Benefits List */}
-            <div className="space-y-5 md:space-y-6">
+            <div className="space-y-6 md:space-y-8 mx-auto px-6 md:px-6 lg:px-8">
                 {BENEFITS_LIST.map((benefit, index) => (
                     <BenefitItem key={index} text={benefit} />
                 ))}
@@ -47,7 +47,7 @@ const BenefitsDetox: React.FC = () => (
 
         <div className="mt-12 bg-black w-full p-6 text-center">
             {/* Quote */}
-            <h3 className="text-white text-xl font-inter md:text-lg font-medium mb-6 leading-relaxed px-2">
+            <h3 className="text-white text-2xl font-inter mb-6 leading-[1.2] px-2">
                 “Después del Detox, me sentí liviana como hace años no me sentía!”
             </h3>
 
@@ -56,7 +56,7 @@ const BenefitsDetox: React.FC = () => (
                 <img
                     src="/detox/desintoxicacion.png"
                     alt="Proceso de desintoxicación - Antes y después"
-                    className="w-full max-w-xs mx-auto rounded-xl object-cover"
+                    className="w-full mx-auto px-2 rounded-xl object-cover mb-10"
                 />
             </div>
         </div>

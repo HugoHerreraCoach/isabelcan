@@ -38,7 +38,7 @@ const CARDS_DATA: CardContent[] = [
 
 const FeatureItem: React.FC<{ text: string }> = ({ text }) => (
     <li className="text-xl font-inter text-black leading-relaxed flex items-start">
-        <span className="text-black mr-2 flex-shrink-0">•</span>
+        <span className="text-black mr-2 flex-shrink-0 font-inter">•</span>
         {text}
     </li>
 );
@@ -55,11 +55,11 @@ const Card: React.FC<{ card: CardContent }> = ({ card }) => (
                 />
             </div>
             <div className="flex-1">
-                <h3 className="text-gray-900 font-inter font-bold text-xl md:text-lg leading-tight mb-1">
+                <h3 className="text-gray-900 font-inter font-semibold text-3xl leading-[1.2] mb-1">
                     {card.title}
                 </h3>
                 {card.subtitle && (
-                    <p className="text-black font-inter text-xl md:text-xl leading-relaxed">
+                    <p className="text-black font-inter text-xl md:text-2xl  leading-[1.2]">
                         {card.subtitle}
                     </p>
                 )}
@@ -98,12 +98,12 @@ const CardsDetox: React.FC = () => (
     <div className="bg-gray-50 py-8 px-6">
         <div className="max-w-sm mx-auto md:max-w-2xl lg:max-w-4xl">
             {/* Header */}
-            <div className="relative flex flex-col items-center">
+            <div className="relative flex flex-col items-center mt-6">
                 {/* Decorative line on top */}
-                <div className="absolute -top-4 w-32 h-0.5 bg-[#0F7457]"></div>
+                <div className="absolute -top-4 w-32 h-[1px] bg-[#0F7457]"></div>
 
                 <div className="flex items-center justify-center gap-2 mb-4 mt-2">
-                    <h2 className="text-xl font-dmSerifDisplay md:text-2xl font-bold text-black">
+                    <h2 className="text-3xl font-dmSerifDisplay md:text-2xl font-bold text-black">
                         🍋¿QUÉ INCLUYE?
                     </h2>
                 </div>

@@ -5,14 +5,14 @@ const WhatsAppButton = () => {
   const whatsappUrl = `https://wa.link/6xznhy`
 
   return (
-    <a
+    <Link
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-[#0F7457] hover:bg-emerald-700 text-white font-bold py-4 px-12 rounded-xl text-[14px] tracking-wider transition-colors duration-200 shadow-lg w-full max-w-[280px] text-center inline-block"
+      className="bg-[#0F7457] hover:bg-emerald-700 text-white font-bold py-4 px-12 rounded-xl text-2xl  text-center"
     >
       UNIRME AL RETO
-    </a>
+    </Link>
   )
 }
 
@@ -29,7 +29,7 @@ const Bonus: React.FC = () => (
 
 
       {/* CTA Text */}
-      <h3 className="text-white font-inter text-xl md:text-2xl font-bold leading-tight mb-2">
+      <h3 className="text-white font-inter text-xl md:text-2xl font-bold leading-tight mb-8">
         ¿Quieres empezar? <br /> Haz clic y te envío toda la info al WhatsApp{' '}
         <span className="inline-block">👇</span>
       </h3>

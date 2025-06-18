@@ -9,8 +9,8 @@ const CalendarButton = () => {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className=" w-[200px] flex justify-center items-center mx-auto bg-white text-black font-bold text-lg py-4 px-6 rounded-xl text-center
-                                         hover:bg-gray-100"
+            className=" w-[250px] flex justify-center items-center mx-auto bg-white text-black font-bold  py-4 px-6 rounded-xl text-center
+                                         hover:bg-gray-100 text-2xl"
         >
             UNIRME
         </a>
@@ -18,7 +18,7 @@ const CalendarButton = () => {
 }
 export default function AfiliadosIntro() {
     return (
-        <div className="bg-black min-h-screen flex items-center justify-center p-4">
+        <div className="bg-black flex items-center justify-center p-4">
             <div className="absolute top-4 right-1 z-10">
                 <Image
                     src="/inicio/isaLogo.png"
@@ -29,8 +29,8 @@ export default function AfiliadosIntro() {
                 />
             </div>
             {/* Contenedor redondeado con márgenes - 90% del ancho */}
-            <div className="relative w-[90%] mx-auto my-14">
-                <div className="relative h-[650px]  rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative w-[95%] mx-auto mt-20">
+                <div className="relative h-[490px]  rounded-2xl overflow-hidden shadow-2xl">
                     {/* Imagen de fondo */}
                     <Image
                         src="/afiliados/mountain.jpg"

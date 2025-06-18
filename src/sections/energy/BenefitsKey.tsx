@@ -50,7 +50,7 @@ const BenefitsKey: React.FC = () => (
                     {/* Header responsive */}
                     <div className="text-center mb-8 md:mb-12 py-4">
                         <div className="w-32 h-0.5 bg-[#0F7457] mx-auto md:mt-10 lg:mt-10"></div>
-                        <h2 className="text-2xl  py-6 font-bold font-dmSerifDisplay text-white tracking-wide leading-tight">
+                        <h2 className="text-3xl  py-6 font-bold font-dmSerifDisplay text-white tracking-wide leading-tight">
                             BENEFICIOS CLAVE
                         </h2>
         

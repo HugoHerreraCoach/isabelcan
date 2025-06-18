@@ -64,7 +64,7 @@ const Card: React.FC<{ card: CardContent }> = ({ card }) => (
                 />
             </div>
             <div className="flex-1">
-                <h3 className="text-gray-900 font-inter font-bold text-xl md:text-lg leading-tight mb-1">
+                <h3 className="text-gray-900 font-inter font-bold text-2xl md:text-lg leading-tight mb-1">
                     {card.title}
                 </h3>
                 {card.subtitle && (
@@ -112,7 +112,7 @@ const CardsEnergy: React.FC = () => (
                 <div className="absolute -top-4 w-32 h-0.5 bg-[#0F7457]"></div>
 
                 <div className="flex items-center justify-center gap-2 mb-4 mt-2">
-                    <h2 className="text-xl font-dmSerifDisplay md:text-2xl font-bold text-black">
+                    <h2 className="text-3xl font-dmSerifDisplay font-bold text-black">
                         🎁 ¿QUÉ INCLUYE?
                     </h2>
                 </div>

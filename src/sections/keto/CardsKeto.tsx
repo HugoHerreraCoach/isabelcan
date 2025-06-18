@@ -112,7 +112,7 @@ const CardsKeto: React.FC = () => (
       {/* Header */}
       <div className="relative flex flex-col items-center">
         {/* Decorative line on top */}
-        <div className="absolute -top-4 w-32 h-0.5 bg-emerald-500"></div>
+        <div className="absolute -top-4 w-32 h-0.5 bg-[#0F7457]"></div>
 
         <div className="flex items-center justify-center gap-2 mb-4 mt-2">
           <div className="w-8 h-8">
@@ -122,7 +122,7 @@ const CardsKeto: React.FC = () => (
               className="w-full h-full object-contain"
             />
           </div>
-          <h2 className="text-xl font-dmSerifDisplay md:text-2xl font-bold text-black">
+          <h2 className="text-3xl font-dmSerifDisplay font-bold text-black">
             ¿QUÉ INCLUYE?
           </h2>
         </div>

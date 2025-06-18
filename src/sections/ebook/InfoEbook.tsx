@@ -31,8 +31,8 @@ export default function InfoEbook() {
 
                 {/* Texto final */}
                 <div className="pt-4">
-                    <h2 className="text-white text-2xl  font-inter leading-[1.2]">
-                        SOLO <span className="text-4xl font-bold">$12 </span> (Acceso inmediato)
+                    <h2 className="text-white text-4xl  font-inter leading-[1.2]">
+                        SOLO <span className="text-6xl font-bold">$12 </span> (Acceso inmediato)
                     </h2>
                 </div>
             </div>

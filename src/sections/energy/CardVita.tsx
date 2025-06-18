@@ -13,7 +13,7 @@ const CardVita: React.FC = () => {
   ];
 
   return (
-    <div className="w-full max-w-xs sm:max-w-sm md:max-w-4xl lg:max-w-5xl xl:max-w-6xl mx-auto bg-white p-4 sm:p-6 md:p-8 mt-72 lg:mt-68 xl:mt-64">
+    <div className="w-full mx-auto bg-white p-4  mt-72 ">
       
       {/* Layout responsive: móvil vertical, md+ en grid de 2 columnas */}
       <div className="md:grid md:grid-cols-2 md:gap-8 lg:gap-12">
@@ -21,8 +21,8 @@ const CardVita: React.FC = () => {
         {/* Columna 1: Header + Imagen */}
         <div className="flex flex-col">
           {/* Header */}
-          <div className="flex items-center justify-center mb-4 sm:mb-6">
-            <h1 className="text-2xl text-center font-dmSerifDisplay font-bold text-gray-800">
+          <div className="flex items-center justify-center mb-4 sm:mb-6 mt-12">
+            <h1 className="text-3xl text-center font-dmSerifDisplay font-bold text-gray-800">
              🌿 ¿QUÉ ES VITA XTR?
             </h1>
           </div>
@@ -41,16 +41,16 @@ const CardVita: React.FC = () => {
         </div>
 
         {/* Columna 2: Descripción + Lista */}
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center px-4">
           {/* Descripción */}
-          <h2 className="text-xl  font-inter text-black mb-3 sm:mb-4 md:mb-5">
+          <h2 className="text-2xl  font-inter text-black mb-3 sm:mb-4 md:mb-5">
             Una bebida natural que combina:
           </h2>
 
           {/* Lista de ingredientes */}
-          <ul className="space-y-2 mb-6 ml-4">
+          <ul className="space-y-2 mb-6 px-4 mx-auto">
             {ingredients.map((ingredient, index) => (
-              <li key={index} className="text-xl text-black font-inter list-disc leading-relaxed">
+              <li key={index} className="text-2xl text-black font-inter list-disc leading-relaxed">
                 {ingredient.text}
               </li>
             ))}
@@ -60,7 +60,7 @@ const CardVita: React.FC = () => {
 
       {/* Beneficios finales - Al pie, ocupando todo el ancho */}
       <div className="md:col-span-2 mt-4 md:mt-8">
-        <p className="text-xl font-inter  text-black md:text-center leading-relaxed px-2 sm:px-4">
+        <p className="text-2xl font-inter  text-black md:text-center leading-relaxed px-2 sm:px-4">
           Sin químicos. Sin crash. Solo enfoque real y energía sostenida.
         </p>
       </div>

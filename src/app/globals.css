@@ -4,6 +4,11 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+@theme {
+  --font-family-dm-serif-display: var(--font-dm-serif-display);
+  --font-family-dm-sans: var(--font-dm-sans);
+  --font-family-inter: var(--font-inter);
+}
 
 @theme inline {
   --color-background: var(--background);
